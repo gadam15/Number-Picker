@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.main{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#num1Div, #num2Div, #num3Div{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    border-radius: 10px;
+    border: solid;
+    margin: auto 40px auto 40px;
+}
+
+#num1Div:hover, #num2Div:hover, #num3Div:hover{
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.result p{
+    margin: 50px 20px;
+}
+
+#goodPickP{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#badPickP{
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#starDiv img{
+    width: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
